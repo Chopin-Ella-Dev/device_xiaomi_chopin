@@ -131,15 +131,19 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_BOOT_JARS += \
+    mediatek-carrier-config-manager \
     mediatek-common \
     mediatek-framework \
+    mediatek-gwsdv2 \
     mediatek-ims-base \
     mediatek-ims-common \
+    mediatek-ims-extension-plugin \
+    mediatek-services \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
-    mediatek-services \
-    ims-common
+    mediatek-wfo-legacy \
+    telecom
 
 PRODUCT_PACKAGES += \
     libshim_vtservice
