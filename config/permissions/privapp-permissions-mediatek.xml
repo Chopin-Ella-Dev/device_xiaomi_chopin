@@ -398,4 +398,10 @@ applications that come with the platform
       <permission name="android.permission.WRITE_SECURE_SETTINGS" />
     </privapp-permissions>
 
+    <privapp-permissions package="com.mediatek.lbs.em2.ui">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.LOCATION_HARDWARE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
 </permissions>
